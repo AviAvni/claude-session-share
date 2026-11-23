@@ -1,6 +1,6 @@
 {
   "name": "session-share",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Share a Claude Code session with teammates through a private claude.ai room: live panel, who's online, and questions each person's own Claude answers.",
   "author": {
     "name": "Avi Avni"

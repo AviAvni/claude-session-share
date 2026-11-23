@@ -1,10 +1,12 @@
-// What the session keeps across a reload of the mod: the room this session is in.
+// What the session keeps across a reload of the plugin: the room it is in.
 export type SavedRoom = {
   role: 'host' | 'guest'
   room: string
-  me: { id: string; name: string }
+  me: { id: string; sid: string; name: string }
   hostName: string
   nextSeq: number
+  paused: boolean
+  lastChangesKey: string
 }
 
 declare module 'claude-code' {
