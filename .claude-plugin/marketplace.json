@@ -1,0 +1,12 @@
+{
+  "name": "aviavni-plugins",
+  "owner": { "name": "Avi Avni" },
+  "metadata": { "description": "Claude Code plugins by Avi Avni." },
+  "plugins": [
+    {
+      "name": "session-share",
+      "source": "./",
+      "description": "Share a Claude Code session with teammates through a private claude.ai room: live panel, who is online, and questions each person's own Claude answers."
+    }
+  ]
+}
